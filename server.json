@@ -1,0 +1,184 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Administrador",
+      "email": "admin@admin.com",
+      "permissions": [
+        "administrator",
+        "editor"
+      ],
+      "roles": [
+        "dashboard",
+        "devices.list",
+        "device.detail",
+        "charts.consumption",
+        "charts.reservoir",
+        "maps"
+      ],
+      "password": "123456",
+      "avatar": "https://observatoriodocinema.uol.com.br/wp-content/uploads/2019/07/neytiri_in_avatar_2-wide-do-we-really-need-avatar-2.jpeg",
+      "created_at": "Thu Feb 03 2022 17:40:51 GMT-0300",
+      "updated_at": "Thu Feb 03 2022 17:40:51 GMT-0300"
+    },
+    {
+      "id": "2",
+      "name": "Eduardo Marques",
+      "email": "dado.nep@gmail.com",
+      "permissions": [
+        "editor"
+      ],
+      "roles": [
+        "device.detail",
+        "charts.consumption",
+        "charts.reservoir"
+      ],
+      "password": "123456",
+      "avatar": "https://github.com/eduardomarr.png",
+      "created_at": "Thu Feb 03 2022 17:40:51 GMT-0300",
+      "updated_at": "Thu Feb 03 2022 17:40:51 GMT-0300"
+    }
+  ],
+  "devices": [
+    {
+      "id": 1,
+      "name": "Casa 1",
+      "latitude": -23.335327,
+      "longitude": -47.562793,
+      "fase": "Fase 1"
+    },
+    {
+      "id": 2,
+      "name": "Casa 2",
+      "latitude": -23.335575,
+      "longitude": -47.563278,
+      "fase": "Fase 1"
+    },
+    {
+      "id": 3,
+      "name": "Casa 3",
+      "latitude": -23.335954,
+      "longitude": -47.562761,
+      "fase": "Fase 2"
+    },
+    {
+      "id": 4,
+      "name": "Casa 4",
+      "latitude": -23.336072,
+      "longitude": -47.563587,
+      "fase": "Fase 3"
+    },
+    {
+      "id": 5,
+      "name": "Casa 5",
+      "latitude": -23.335327,
+      "longitude": -47.562793,
+      "fase": "Fase 1"
+    },
+    {
+      "id": 6,
+      "name": "Casa 6",
+      "latitude": -23.335575,
+      "longitude": -47.563278,
+      "fase": "Fase 1"
+    },
+    {
+      "id": 7,
+      "name": "Casa 7",
+      "latitude": -23.335954,
+      "longitude": -47.562761,
+      "fase": "Fase 2"
+    },
+    {
+      "id": 8,
+      "name": "Casa 8",
+      "latitude": -23.336072,
+      "longitude": -47.563587,
+      "fase": "Fase 3"
+    },
+    {
+      "id": 9,
+      "name": "Casa 9",
+      "latitude": -23.335954,
+      "longitude": -47.562761,
+      "fase": "Fase 2"
+    },
+    {
+      "id": 10,
+      "name": "Casa 10",
+      "latitude": -23.336072,
+      "longitude": -47.563587,
+      "fase": "Fase 3"
+    },
+    {
+      "id": 11,
+      "name": "Casa 11",
+      "latitude": -23.335327,
+      "longitude": -47.562793,
+      "fase": "Fase 1"
+    },
+    {
+      "id": 12,
+      "name": "Casa 12",
+      "latitude": -23.335575,
+      "longitude": -47.563278,
+      "fase": "Fase 1"
+    },
+    {
+      "id": 13,
+      "name": "Casa 13",
+      "latitude": -23.335954,
+      "longitude": -47.562761,
+      "fase": "Fase 2"
+    },
+    {
+      "id": 14,
+      "name": "Casa 14",
+      "latitude": -23.336072,
+      "longitude": -47.563587,
+      "fase": "Fase 3"
+    },
+    {
+      "id": 15,
+      "name": "Casa 15",
+      "latitude": -23.335327,
+      "longitude": -47.562793,
+      "fase": "Fase 1"
+    },
+    {
+      "id": 16,
+      "name": "Casa 16",
+      "latitude": -23.335575,
+      "longitude": -47.563278,
+      "fase": "Fase 1"
+    },
+    {
+      "id": 17,
+      "name": "Casa 17",
+      "latitude": -23.335954,
+      "longitude": -47.562761,
+      "fase": "Fase 2"
+    },
+    {
+      "id": 18,
+      "name": "Casa 18",
+      "latitude": -23.336072,
+      "longitude": -47.563587,
+      "fase": "Fase 3"
+    },
+    {
+      "id": 19,
+      "name": "Casa 19",
+      "latitude": -23.335954,
+      "longitude": -47.562761,
+      "fase": "Fase 2"
+    },
+    {
+      "id": 20,
+      "name": "Casa 20",
+      "latitude": -23.336072,
+      "longitude": -47.563587,
+      "fase": "Fase 3"
+    }
+  ]
+}
