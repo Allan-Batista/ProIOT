@@ -1,4 +1,4 @@
-import { Pick } from "types/pick";
+import { Pick } from "../../Types/picks";
 
 export const topPicks: Pick[] = [
   {

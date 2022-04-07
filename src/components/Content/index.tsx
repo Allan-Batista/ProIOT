@@ -1,15 +1,15 @@
 import { VStack, HStack } from "@chakra-ui/react";
 
-import { TopPicks } from "components/top-picks";
-import { Sidebar } from "../SideBar";
-import { SearchBar } from "components/searchBar";
-import { GenresCarousel } from "components/genres-carousel";
+import { TopPicks } from "../../components/TopPicks";
+import { SideBar } from "../SideBar";
+import { SearchBar } from "../../components/Search-bar";
+import { GenresCarousel } from "../../components/Genres-carousel";
 import { TopProducers } from "../TopProducers";
 
 export const Content = () => {
   return (
     <HStack width="full" flex={1} overflow="hidden">
-      <Sidebar />
+      <SideBar />
 
       <VStack
         px={12}
@@ -27,5 +27,5 @@ export const Content = () => {
         </HStack>
       </VStack>
     </HStack>
-  )
+  );
 };

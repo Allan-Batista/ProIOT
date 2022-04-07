@@ -1,8 +1,9 @@
 import { Link, HStack, Icon, Text, Box, Heading } from "@chakra-ui/react";
-import { NavItem as item } from "types/nav-item";
+import { NavItem as item } from "../../Types/nav-item";
 
 type Props = {
-  item: item,
+  item: item;
+  isActive: boolean;
 };
 
 export const NavItem = ({ isActive, item }: Props) => {

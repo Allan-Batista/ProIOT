@@ -1,4 +1,4 @@
-import { Producer } from "types/producer";
+import { Producer } from "../../Types/producer";
 
 export const topProducers: Producer[] = [
   {

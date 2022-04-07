@@ -1,10 +1,10 @@
 import { HStack } from "@chakra-ui/react";
 
-import { Control } from "types/control";
+import { Control } from "../../Types/control";
 import { PlayerControl } from "./player-control";
 
 type Props = {
-  controls: Control[],
+  controls: Control[];
 };
 
 export const PlayerControls = ({ controls }: Props) => {

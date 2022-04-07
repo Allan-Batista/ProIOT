@@ -15,8 +15,8 @@ import {
 import { useTable, Column } from "react-table";
 import { FaShoppingCart } from "react-icons/fa";
 
-import { Image } from "../Image";
-import { Pick } from "../../types/picks";
+// import { Image } from "../Image";
+import { Pick } from "../../Types/picks";
 import { topPicks } from "./picks-data";
 import { brandRing } from "../../utils/brandRing";
 
@@ -36,7 +36,7 @@ export const TopPicks = (props: ComponentProps<typeof VStack>) => {
           width: "100px",
           Cell: ({ value }) => (
             <VStack alignItems="flex-start" justifyContent="center">
-              <Image
+              {/* <Image
                 src={value}
                 width="56px"
                 height="56px"
@@ -45,7 +45,7 @@ export const TopPicks = (props: ComponentProps<typeof VStack>) => {
                 rounded="x1"
                 objectFit="cover"
                 quality="75"
-              />
+              /> */}
             </VStack>
           ),
         },
@@ -73,8 +73,8 @@ export const TopPicks = (props: ComponentProps<typeof VStack>) => {
           Cell: () => (
             <IconButton
               icon={<FaShoppingCart />}
-              arial-label="Buy song"
-              routed="full"
+              aria-label="Buy song"
+              rounted="full"
               {...brandRing}
             />
           ),
@@ -91,12 +91,12 @@ export const TopPicks = (props: ComponentProps<typeof VStack>) => {
       <Heading>Top Picks</Heading>
       <Flex overflowY="auto" width="full">
         <Table {...getTableProps()} position="relative">
-          <Thead>{headerGroups.map(headerGroup) =>(
+          <Thead>{headerGroups.map((headerGroup) => (
             <Tr {...headerGroup.getHeaderGroupProps()}>
               {headerGroup.headers.map((column) => (
                 <Th width={column.width} {...column.getHeaderProps()}
                   borderBottom={0}
-                  position="stick"
+                  position="sticky"
                   zIndex="banner"
                   top={0}
                   bg={"black"}
@@ -106,7 +106,7 @@ export const TopPicks = (props: ComponentProps<typeof VStack>) => {
                 </Th>
               ))}
             </Tr>
-        )}
+          ))}
           </Thead>
           <Tbody {...getTableBodyProps()}>
             {rows.map((row) => {
@@ -117,8 +117,8 @@ export const TopPicks = (props: ComponentProps<typeof VStack>) => {
                   transitionProperty="background"
                   transitionDuration="normal"
                   _hover={{
-                    background: "gray.dark"
-                     cursor: "pointer"
+                    background: "gray.dark",
+                     cursor: "pointer",
                   }}
                 >
                   {row.cells.map((cell) => (

@@ -1,7 +1,7 @@
 import { IconButton, Tooltip } from "@chakra-ui/react";
 
-import { brandRing } from "src/utils/brandRing";
-import { Control } from "types/control";
+import { brandRing } from "../../../src/utils/brandRing";
+import { Control } from "../../Types/control";
 
 export const PlayerControl = ({
   label,

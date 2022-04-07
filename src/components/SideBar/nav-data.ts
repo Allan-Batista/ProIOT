@@ -12,7 +12,7 @@ import { GiBackwardTime } from "react-icons/gi";
 import { IoIosSettings } from "react-icons/io";
 import { BsBoxArrowLeft } from "react-icons/bs";
 
-import { NavItem } from "Types/nav-item";
+import { NavItem } from "../../Types/nav-item";
 
 export const navItems: NavItem[] = [
   {
@@ -41,6 +41,22 @@ export const navItems: NavItem[] = [
   },
   {
     type: "link",
+    href: "/producers",
+    icon: FaUserAlt,
+    label: "Producers",
+  },
+  {
+    type: "header",
+    label: "Library",
+  },
+  {
+    type: "link",
+    href: "/recent",
+    icon: GiBackwardTime,
+    label: "Recent",
+  },
+  {
+    type: "link",
     href: "/favorites",
     icon: FaHeart,
     label: "Favorites",
@@ -65,6 +81,6 @@ export const navItems: NavItem[] = [
     type: "link",
     href: "/logout",
     icon: BsBoxArrowLeft,
-    label: "Log out",
+    label: "Log Out",
   },
 ];
